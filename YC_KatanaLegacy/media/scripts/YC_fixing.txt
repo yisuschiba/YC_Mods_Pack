@@ -1,0 +1,72 @@
+module Base
+{
+
+    fixing Fix Spear With Tanto
+    {
+       Require : YCSpearTanto,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+       Fixer : KatanaCleaningKit=2; Maintenance=2,
+    }
+    
+    fixing Fix YCKatana
+    {
+       Require : YCKatana,
+
+       Fixer : KatanaCleaningKit=2; Maintenance=2,
+       ConditionModifier : 1.5,
+    }
+    
+    fixing Fix Naginata
+    {
+       Require : YCNaginata,
+
+       Fixer : KatanaCleaningKit=2; Maintenance=2,
+    }
+
+    fixing Fix Nodachi
+    {
+       Require : YCNodachi,
+
+       Fixer : KatanaCleaningKit=2; Maintenance=2,
+    }
+
+    fixing Fix Nagamaki
+    {
+       Require : YCNagamaki,
+
+       Fixer : KatanaCleaningKit=2; Maintenance=2,
+    }
+
+    fixing Fix Wakizashi
+    {
+       Require : YCWakizashi,
+
+       Fixer : KatanaCleaningKit=2; Maintenance=2,
+    }
+
+    fixing Fix Tanto
+    {
+       Require : YCTanto,
+
+       Fixer : KatanaCleaningKit=2; Maintenance=2,
+    }
+
+    fixing Fix Odachi
+    {
+       Require : YCOdachi,
+
+       Fixer : KatanaCleaningKit=2; Maintenance=2,
+    }
+
+    fixing Fix Tachi
+    {
+       Require : YCTachi,
+
+       Fixer : KatanaCleaningKit=2; Maintenance=2,
+    }
+
+}

@@ -1,0 +1,226 @@
+module Base
+{
+	model YCKatana
+	{
+		mesh = Weapons/2Handed/YCKatana,
+		attachment world
+		{
+			offset = 0.0000 0.0010 -0.0010,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+
+	model YCNaginata
+	{
+		mesh = weapons/2handed/YCNaginata,
+		texture = weapons/2handed/YCNaginata,
+		attachment world
+		{
+			offset = 0.0000 0.0010 -0.0010,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model YCNodachi
+	{
+		mesh = Weapons/2Handed/YCNodachi,
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+
+	model YCNagamaki
+	{
+		mesh = Weapons/2Handed/YCNagamaki,
+		attachment world
+		{
+			offset = 0.0000 0.0010 -0.0010,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+
+		model YCWakizashi
+	{
+		mesh = weapons/1handed/YCWakizashi,
+		attachment world
+		{
+			offset = 0.0000 0.0010 -0.0010,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+
+	model YCTanto
+	{
+		mesh = weapons/1handed/YCTanto,
+		attachment world
+		{
+			offset = 0.0000 0.0010 -0.0010,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+
+	model YCOdachi
+	{
+		mesh = Weapons/2Handed/YCOdachi,
+		attachment world
+		{
+			offset = 0.0000 0.0010 -0.0010,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+
+	model YCTachi
+	{
+		mesh = Weapons/2Handed/YCTachi,
+		attachment world
+		{
+			offset = 0.0000 0.0010 -0.0010,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+
+	model YCSpearTanto
+	{
+		mesh = weapons/2Handed/YCSpearTanto,
+		attachment world
+		{
+			offset = 0.0000 0.0010 -0.0010,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+
+	model KatanaCleaningKit
+	{
+		mesh = WorldItems/KatanaCleaningKit,
+		texture = WorldItems/KatanaCleaningKit,
+		scale = 0.4,
+	}
+
+
+	model FemaleBody
+	{
+		mesh = Skinned/FemaleBody,
+
+		attachment YCN_big_blade_back_bag
+		{
+			offset = -0.0040 -0.0690 0.2860,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment YCN_blade_back
+		{
+			offset = -0.0170 -0.1430 0.2430,
+			rotate = -62.0000 0.0000 -5.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment YCO_big_blade_back_bag
+		{
+			offset = -0.0070 -0.0310 0.5700,
+			rotate = -90.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment YCO_blade_back
+		{
+			offset = -0.0300 -0.2250 0.5310,
+			rotate = -62.0000 0.0000 -5.0000,
+			bone = Bip01_BackPack,
+		}
+
+		attachment YCSageo_right
+		{
+			offset = 0.1650 -0.0920 0.1350,
+			rotate = 178.0000 44.0000 89.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment YCSageo_left
+		{
+			offset = 0.1650 0.0920 0.1350,
+			rotate = 172.0000 44.0000 97.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment YCSageoU_right_upside
+		{
+			offset = 0.1620 -0.1060 0.0800,
+			rotate = -22.0000 -34.0000 77.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment YCSageoU_left_upside
+		{
+			offset = 0.1620 0.1060 0.0800,
+			rotate = -22.0000 -34.0000 77.0000,
+			bone = Bip01_Pelvis,
+		}
+
+	}
+
+	model MaleBody
+	{
+		mesh = Skinned/MaleBody,
+
+		attachment YCN_big_blade_back_bag
+		{
+			offset = -0.0170 -0.0450 0.2740,
+			rotate = -97.0000 0.0000 -4.0000,
+			bone = Bip01_BackPack,
+		}
+		
+		attachment YCN_blade_back
+		{
+			offset = -0.0020 -0.1360 0.2250,
+			rotate = -61.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+		
+		attachment YCO_big_blade_back_bag
+		{
+			offset = -0.0190 0.0120 0.5550,
+			rotate = -97.0000 0.0000 -4.0000,
+			bone = Bip01_BackPack,
+		}
+		
+		attachment YCO_blade_back
+		{
+			offset = -0.0020 -0.2430 0.4600,
+			rotate = -61.0000 0.0000 0.0000,
+			bone = Bip01_BackPack,
+		}
+		
+		attachment YCSageo_left
+		{
+			offset = 0.1570 0.1050 0.1580,
+			rotate = 172.0000 44.0000 97.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment YCSageoU_left_upside
+		{
+			offset = 0.1710 0.0970 0.1200,
+			rotate = -22.0000 -34.0000 77.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment YCSageo_right
+		{
+			offset = 0.1450 -0.1010 0.1560,
+			rotate = 178.0000 44.0000 89.0000,
+			bone = Bip01_Pelvis,
+		}
+
+		attachment YCSageoU_right_upside
+		{
+			offset = 0.1710 -0.0970 0.1200,
+			rotate = -22.0000 -34.0000 77.0000,
+			bone = Bip01_Pelvis,
+		}
+
+	}
+
+
+}

@@ -1,0 +1,13 @@
+Items_ES = {
+
+		DisplayNameYCKatana = "Uchi-Katana",
+        DisplayNameNaginata = "Naginata",
+        DisplayNameNodachi = "Nodachi",
+        DisplayNameNagamaki = "Nagamaki",
+        DisplayNameWakizashi = "Wakizashi",
+        DisplayNameTanto = "Tanto",
+        DisplayNameOdachi = "Odachi",
+        DisplayNameTachi = "Tachi",
+        DisplayNameSpear_With_Tanto = "Lanza con Tanto",
+        DisplayNameKatana_Cleaning_Kit = "Kit para el mantenimiento de katanas",
+}

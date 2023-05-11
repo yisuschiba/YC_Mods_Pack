@@ -1,0 +1,5 @@
+Tooltip_ES = {
+	
+	Tooltip_YCKCK = "Utilizado en mantenimiento de armas de filo Japonesas.",
+
+}
