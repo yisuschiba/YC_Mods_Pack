@@ -324,6 +324,7 @@ module KatanaLegacy
         DamageCategory              = Slash,
         DamageMakeHole              = TRUE,
         TwoHandWeapon               = TRUE,
+        RequiresEquippedBothHands   = TRUE,
         AttachmentType              = YCOBigBlade,
     }
 
